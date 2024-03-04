@@ -158,3 +158,30 @@ sudo apt install update-manager-core
 sudo do-release-upgrade
 sudo reboot
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+nvm --version
+nvm ls-remote
+nvm install 21.6.1
+node --version
+node -v
+npm install mongodb
+ls
+nano example.py
+mv example.py test.py 
+ls
+touch .env
+ls
+nano .env
+git add .
+git rm --cached .nvm
+git add .
+git commit 'create a test.py script'
+git commit -m 'create a test.py script'
+git push
+git pull
+git rm --cached .env
+nano gitignore
+git add .
+git commit -m 'added a file'
+git push
+mv test.py index.py 
+nano index.py
