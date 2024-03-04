@@ -30,6 +30,9 @@ df = pd.DataFrame(table_rows, columns=["upc", "title", "product_class", "index_i
 
 # Dropping unwanted fields
 new_df = df.drop(columns=["product_class", "index_id", "cut"])
+
+# Adding 'insertedAt' column with current time
+    new_df['insertedAt'] = datetime.now()
  
 print(new_df)
 
